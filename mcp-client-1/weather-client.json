@@ -1,0 +1,13 @@
+{
+    "model": "Qwen/Qwen2.5-72B-Instruct",
+    "provider": "nebius",
+    "servers": [
+        {
+            "type": "stdio",
+            "config": {
+                "command": "python",
+                "args": ["~OneDrive\\Desktop\\Projects\\AI\\mcp-playground\\weather-finder\\main.py"]
+            }
+        }
+    ]
+}

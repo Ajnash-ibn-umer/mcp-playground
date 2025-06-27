@@ -10,7 +10,7 @@ employee_leaves = {
 # Create MCP server
 mcp = FastMCP("LeaveManager")
 
-
+print("employee_leaves",employee_leaves)
 # Tool: Check Leave Balance
 @mcp.tool()
 def get_leave_balance(employee_id: str) -> str:
